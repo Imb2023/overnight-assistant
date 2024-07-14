@@ -3,4 +3,7 @@
 
 <br>
 
-requirementa
+requirements
+  python
+  opencv
+
