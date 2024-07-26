@@ -6,7 +6,10 @@
         {
             "label": "echo",
             "type": "shell",
-            "command": "echo Hello"
+            "command": "echo Hello",
+            "problemMatcher": [
+                "$jshint"
+            ]
         }
     ]
 }
