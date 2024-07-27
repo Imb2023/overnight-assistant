@@ -144,9 +144,9 @@
 
 		// Panel.
 			$navPanel = $(
-				'<div id="navPanel">' +
+				'<div id="navPanel" style="background-color: mediumaquamarine;">' +
 					'<nav>' +
-					'</nav>' +
+					'</nav>',
 					'<a href="#navPanel" class="close"></a>' +
 				'</div>'
 			)
