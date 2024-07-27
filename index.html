@@ -1,384 +1,229 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>night-care</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Lato"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <style>
-      body {
-        font-family: "Lato", sans-serif;
-      }
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-      .mySlides {
-        display: none;
-      }
-    </style>
-  </head>
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-  <body>
-    <!-- Navbar -->
-    <div class="w3-top">
-      <div class="w3-bar w3-black w3-card">
-        <a
-          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
-          href="javascript:void(0)"
-          onclick="myFunction()"
-          title="Toggle Navigation Menu"
-          ><i class="fa fa-bars"></i
-        ></a>
-        <a href="#" class="w3-bar-item w3-button w3-padding-large">home</a>
-        <a
-          href="#band"
-          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
-          >ph2</a
-        >
-        <a
-          href="#tour"
-          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
-          >ph3</a
-        >
-        <div class="w3-dropdown-hover w3-hide-small">
-          <button class="w3-padding-large w3-button" title="More">
-            Hardware <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="w3-dropdown-content w3-bar-block w3-card-4">
-            <a href="#" class="w3-bar-item w3-button"
-              >parts<br />
-              needed</a
-            >
-          </div>
-        </div>
-        <a aria-label="Read more about Seminole tax hike"
-          href="javascript:void(0)"
-          class="w3-padding-large w3-hover-red w3-hide-small w3-right"
-          ><i class="fa fa-search"></i
-        ></a>
-      </div>
-    </div>
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Night<br />
+						Care</h1>
+						<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
+						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
 
-    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-    <div
-      id="navDemo"
-      class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top"
-      style="margin-top: 46px"
-    >
-      <a
-        href="#band"
-        class="w3-bar-item w3-button w3-padding-large"
-        onclick="myFunction()"
-        >PH1</a
-      >
-      <a
-        href="#tour"
-        class="w3-bar-item w3-button w3-padding-large"
-        onclick="myFunction()"
-        >PH2</a
-      >
-      <a
-        href="#contact"
-        class="w3-bar-item w3-button w3-padding-large"
-        onclick="myFunction()"
-        >PH3</a
-      >
-      <div class="w3-dropdown-hover">
-        <a ="w3-padding-large" title="More"
-          >Hardware <i class="fa fa-caret-down"></i
-        ></a>
-        <div class="w3-dropdown-content w3-bar-block w3-card-4">
-          <a href="#" class="w3-bar-item w3-button"
-            >parts<br />
-            needed</a
-          >
-        </div>
-      </div>
-    </div>
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Massively</a>
+					</header>
 
-    <!-- Page content -->
-    <div class="w3-content" style="max-width: 2000px; margin-top: 46px">
-      <!-- Automatic Slideshow Images -->
-      <div class="mySlides w3-display-container w3-center w3-red">
-        <img
-          src="/la.png"
-          style="
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-          "
-        />
-        <div
-          class="w3-display-topmiddle w3-container w3-text-black w3-padding-32"
-        >
-          <h4>How the idea was thought about</h4>
-          <p><b>Placeholder1</b></p>
-        </div>
-      </div>
-      <div class="mySlides w3-display-container w3-center w3-blue">
-        <img
-          src="la.png"
-          style="
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-          "
-        />
-        <div
-          class="w3-display-topmiddle w3-container w3-text-black w3-padding-32"
-        >
-          <h4>phacelholder2</h4>
-          <p><b>The atmosphere in New York is lorem ipsum.</b></p>
-        </div>
-      </div>
-      <div class="mySlides w3-display-container w3-center w3-grey">
-        <img
-          src="la.png"
-          style="
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-          "
-        />
-        <div
-          class="w3-display-topmiddle w3-container w3-text-black w3-padding-32"
-        >
-          <h4>self-contained</h4>
-          <p><b>all parts easy to aquire</b></p>
-        </div>
-      </div>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">This is Massively</a></li>
+							<li><a href="generic.html">Generic Page</a></li>
+							<li><a href="elements.html">Elements Reference</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
 
-      <!-- The Band Section -->
-      <div
-        class="w3-container w3-content w3-center w3-padding-64"
-        style="max-width: 800px"
-        id="band"
-      >
-        <h2 class="w3-wide">Night Care for people</h2>
-        <p class="w3-opacity">
-          <i>Smart camera to care for anyone over night.</i>
-        </p>
-        <p class="w3-justify">
-          problem: <br />Having a camera in your room can leave you vunerable to
-          spying by hacker or anyone with your account information.
-        </p>
-        <div class="w3-row w3-padding-24">
-          <div class="w3-third">
-            <p>Name</p>
-            <img
-              src="newyork.png"
-              class="w3-round w3-margin-bottom"
-              alt="Random Name"
-              style="width: 60%"
-            />
-          </div>
-          <div class="w3-third">
-            <p>Name</p>
-            <img
-              src="la.png"
-              class="w3-round w3-margin-bottom"
-              alt="Random Name"
-              style="width: 60%"
-            />
-          </div>
-          <div class="w3-third">
-            <p>Name</p>
-            <img
-              src="bandmember.jpg"
-              class="w3-round"
-              alt="Random Name"
-              style="width: 60%"
-            />
-          </div>
-        </div>
-      </div>
+				<!-- Main -->
+					<div id="main">
 
-      <!-- The Tour Section -->
-      <div class="w3-black" id="tour">
-        <div
-          class="w3-container w3-content w3-padding-64"
-          style="max-width: 800px"
-        >
-          <h2 class="w3-wide w3-center">setup</h2>
-          <p class="w3-opacity w3-center"><i>how to start</i></p>
-          <br />
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date">April 25, 2017</span>
+									<h2><a href="#">And this is a<br />
+									massive headline</a></h2>
+									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
+									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
+									amet nullam sed etiam veroeros.</p>
+								</header>
+								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="#" class="button large">Full Story</a></li>
+								</ul>
+							</article>
 
-          <div class="w3-row-padding w3-padding-32" style="margin: 0 -16px">
-            <div class="w3-third w3-margin-bottom">
-              <img
-                src="la.png"
-                alt="start"
-                style="width: 100%"
-                class="w3-hover-opacity"
-              />
-              <div class="w3-container w3-white">
-                <p><b>step 1</b></p>
-                <p class="w3-opacity">the very basics</p>
-                <p>
-                  how to setup your environment and the packages and or software
-                  needed.
-                </p>
-                <button
-                  class="w3-button w3-black w3-margin-bottom"
-                  onclick="document.getElementById('ticketModal').style.display='block'"
-                >
-                  Learn More
-                </button>
-              </div>
-            </div>
-            <div class="w3-third w3-margin-bottom">
-              <img
-                src="la.png"
-                alt="next"
-                style="width: 100%"
-                class="w3-hover-opacity"
-              />
-              <div class="w3-container w3-white">
-                <p><b>Step 2</b></p>
-                <p class="w3-opacity">Sat 28 Nov 2016</p>
-                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                <button
-                  class="w3-button w3-black w3-margin-bottom"
-                  onclick="document.getElementById('ticketModal').style.display='block'"
-                >
-                  Learn More
-                </button>
-              </div>
-            </div>
-            <div class="w3-third w3-margin-bottom">
-              <img
-                src="la.png"
-                alt="finish"
-                style="width: 100%"
-                class="w3-hover-opacity"
-              />
-              <div class="w3-container w3-white">
-                <p><b>Step 3</b></p>
-                <p class="w3-opacity">
-                  testing the final product and using in live,
-                </p>
-                <p>
-                  the finish line is here all we need is to run it and test it
-                  and break it (to find bugs and vunerabilities).
-                </p>
-                <button
-                  class="w3-button w3-black w3-margin-bottom"
-                  onclick="document.getElementById('ticketModal').style.display='block'"
-                >
-                  Learn More
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<span class="date">April 24, 2017</span>
+										<h2><a href="#">Sed magna<br />
+										ipsum faucibus</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 22, 2017</span>
+										<h2><a href="#">Primis eget<br />
+										imperdiet lorem</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 18, 2017</span>
+										<h2><a href="#">Ante mattis<br />
+										interdum dolor</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 14, 2017</span>
+										<h2><a href="#">Tempus sed<br />
+										nulla imperdiet</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 11, 2017</span>
+										<h2><a href="#">Odio magna<br />
+										sed consectetur</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 7, 2017</span>
+										<h2><a href="#">Augue lorem<br />
+										primis vestibulum</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+							</section>
 
-      <!-- Ticket Modal -->
-      <div id="ticketModal" class="w3-modal">
-        <div class="w3-modal-content w3-animate-top w3-card-4">
-          <header class="w3-container w3-teal w3-center w3-padding-32">
-            <span
-              onclick="document.getElementById('ticketModal').style.display='none'"
-              class="w3-button w3-teal w3-xlarge w3-display-topright"
-              >×</span
-            >
-            <h2 class="w3-wide">Step One</h2>
-          </header>
-          <div class="w3-container">
-            <p>read me how to install</p>
-            <p>use cases</p>
-            <p>testing</p>
-            <p class="">Need <a href="" class="w3-text-blue">help?</a></p>
-            <button
-              class="w3-button w3-red w3-section"
-              onclick="document.getElementById('ticketModal').style.display='none'"
-            >
-              Close <i class="fa fa-remove"></i>
-            </button>
-          </div>
-        </div>
-      </div>
+						<!-- Footer -->
+							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
 
-      <!-- The Contact Section -->
-      <div
-        class="w3-container w3-content w3-padding-64"
-        style="max-width: 800px"
-        id="contact"
-      >
-        <h2 class="w3-wide w3-center">CONTACT</h2>
-        <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
-        <div class="w3-row w3-padding-32">
-          <div class="w3-col m6 w3-large w3-margin-bottom">
-            <i class="fa fa-map-marker" style="width: 30px"></i> Dallas, US<br />
-            <i class="fa fa-phone" style="width: 30px"></i> 469-974-1436<br />
-            <i class="fa fa-envelope" style="width: 30px"> </i> Email:
-            imb.2023.1.0.0.1@gmail.com<br />
-          </div>
-          <div class="w3-col m6"></div>
-        </div>
-      </div>
+					</div>
 
-      <!-- End Page Content -->
-    </div>
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Nashville, TN 00000-0000</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">info@untitled.tld</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
 
-    <!-- Image of location/map -->
-    <img 
-      src="newyork.png"
-      class="w3-image w3-greyscale-min"
-      style="width: 100%"
-      img alt="drawing of a cat"
-    />
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
 
-    <!-- Footer -->
-    <footer
-      class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge"
-    ></footer>
+			</div>
 
-    <script>
-      // Automatic Slideshow - change image every 4 seconds
-      var myIndex = 0;
-      carousel();
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-      function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {
-          myIndex = 1;
-        }
-        x[myIndex - 1].style.display = "block";
-        setTimeout(carousel, 4000);
-      }
-
-      // Used to toggle the menu on small screens when clicking on the menu button
-      function myFunction() {
-        var x = document.getElementById("navDemo");
-        if (x.className.indexOf("w3-show") == -1) {
-          x.className += " w3-show";
-        } else {
-          x.className = x.className.replace(" w3-show", "");
-        }
-      }
-
-      // When the user clicks anywhere outside of the modal, close it
-      var modal = document.getElementById("ticketModal");
-      window.onclick = function (event) {
-        if (event.target == modal) {
-          modal.style.display = "none";
-        }
-      };
-    </script>
-  </body>
+	</body>
 </html>
