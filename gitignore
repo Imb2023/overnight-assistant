@@ -1,3 +1,5 @@
 .venv
 logs
 __pycache__
+yolov3-coco
+logs
