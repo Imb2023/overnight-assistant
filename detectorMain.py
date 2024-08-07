@@ -91,7 +91,7 @@ def main():
             break
 
         frame = process_frame(frame, net, output_layers, classes)
-        cv2.imshow('Frame', frame)
+        
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             logger.info("Quitting the application.")
