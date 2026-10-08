@@ -2,6 +2,8 @@
 
 ## In-room camera vision for elderly in case of falls
 
+> **2026 project update:** Development of Overnight Assistant has resumed. The project is now being advanced with AI-assisted research, coding, testing, and architecture work. AI tools are being used as development assistants to help modernize and improve the project; AI is **not currently integrated into the Overnight Assistant runtime itself**. Progress and technical decisions will continue to be tracked in this repository as the source of truth.
+
 requirements:
 
     SOFTWARE:
